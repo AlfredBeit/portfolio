@@ -82,7 +82,7 @@ tryCatch(  expr = {
 },
 error = function(e) {
   if (p != 1) {
-    print(p)
+    print(p) #add error handling
     message(e)
   }
   
